@@ -1,0 +1,36 @@
+estrategia local = login, autenticação e geração do token
+
+jwt = validação do token no banco de dados
+
+git fetch = leitura
+
+git checkout -b develop origin/develop
+
+Metodos assíncronos, ou seja não parar aplicação, fica rodando em segundo plano.
+({ - Parenteses para achar e chaves para trazer tudo que esta dentro
+
+this - atributos e metodos utilizados dentro da classe precisam do uso do this
+
+Param é algo especificado
+Body é uma biblioteca pronta, ou seja seja um arquivo JSON como modelo
+
+//PASSPORT biblioteca para proteção
+
+Estratégia local e estrategia JWT
+Estrategia local vai gerar um token e vai ser lido pelo JWT
+
+Token composto por 3 passos
+
+header
+Payload
+Assinatura
+
+npm i –save @nestjs/passport passport-local
+npm i –save-dev @types/passport-local
+npm i –save @nestjs/jwt passport-jwt
+npm i -save-dev @types/passport-jwt
+
+guard/auth service/
+
+passport é uma biblioteca com um conjunto de instruções de segurança que contém várias estrategias, porém vamos utilizar duas delas
+que são a local e jwt.
